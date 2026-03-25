@@ -1,0 +1,185 @@
+.about{
+      display: flex;  
+    height: 100vh;
+     width:calc(100% - 230px);
+  margin-left:230px;
+     background-color: brown;
+}
+.left-panel {
+   width: 40%; 
+  display: flex;
+  flex-direction: column;  
+      padding: 40px 30px 40px 70px;
+    text-align: center;
+   font-size: 1.6rem; 
+   justify-content: center;
+}
+ 
+.profile-pic-container{
+   width: 200px;
+    display: flex;
+    height: 200px;
+    align-self: center;
+    margin-bottom:40px;
+}
+.profile-pic-container img{
+     width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 100%;
+    display: block;
+}
+.left-panel h2,h3,h4,p{
+    margin: 0; 
+} 
+  
+.right-panel {
+    width: 55%;
+  position: relative;  
+  background: brown;
+  color:white;
+   font-size:20px; 
+       padding: 40px 20px;
+}
+ 
+ 
+
+/*---------------------------------------------*/
+ 
+/* Tabs */
+.tab {
+  background: brown !important;
+  color: white !important;
+  border-radius: 20px !important;
+  margin-right: 12px !important; 
+  padding: 10px 22px !important;
+  font-weight: 600 !important;
+      font-size: 20px !important; 
+}
+
+.tab.Mui-selected {
+ background: #c24141 !important;
+ color:#fff;
+ //border:2px solid black;
+}
+
+/* Content Box */
+.content-box {
+  margin-top: 20px;
+  background:#c24141;
+  border-radius: 20px;
+  min-height: 600px;
+  display: block;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  color: white;
+}
+
+/* Panels */
+.tab-panel { 
+  width: 100%; 
+  opacity: 0; 
+
+} 
+
+/* ACTIVE STATE */
+.tab-panel.active {
+  opacity: 1;
+  animation-duration: 0.4s;
+  animation-fill-mode: forwards;
+    max-height:600px;
+  overflow-y: auto;
+}
+
+/* Slide LEFT */
+.slide-left.active {
+  animation-name: slideFromRight;
+}
+
+/* Slide RIGHT */
+.slide-right.active {
+  animation-name: slideFromLeft;
+}
+
+/* Keyframes */
+@keyframes slideFromRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideFromLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/*............scroll bar styling.............*/
+.tab-panel.active::-webkit-scrollbar {
+  width: 6px;
+}
+
+.tab-panel.active::-webkit-scrollbar-thumb {
+  background: #999;
+  border-radius: 6px;
+}
+.experience{ 
+  padding:0 5px;
+}
+.experience-item h3{
+      display: flex;
+      text-decoration: underline;
+    justify-content: space-between;
+    line-height: 1.4;
+} 
+.skills-list .MuiBox-root h4{
+    margin-top: 5px;
+} 
+.skills-list .MuiBox-root h4 img{
+width:40px;
+height:40px;
+}
+.skills-list .MuiBox-root p{
+  color:#fff;
+  font-size: 16px;
+  font-weight:600;
+} 
+.progressbarblue {
+  margin-bottom: 25px;
+}
+.progressbarblue .css-1txyin7-MuiLinearProgress-root{ 
+  height:15px;
+   background-color: #7cb5d8 !important;
+}
+ 
+.progressbarblue .css-l16vtb-MuiLinearProgress-bar1{
+  background-color: rgb(32, 66, 141) !important;
+}
+ 
+  
+.progressbarSkill{
+  display: flex;
+}
+.progressbarSkill img{
+width:60px;
+height:auto;
+margin-right:20px
+}
+.progressbarSkill>div{
+  width:100%
+}
+.progressbarSkill  .css-1bhivts{
+width:100%;
+height:auto;
+}

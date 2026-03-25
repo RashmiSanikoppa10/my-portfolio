@@ -1,0 +1,17 @@
+.blogs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% -220px);
+    margin-left:220px;
+    height: 100vh;
+     background-color: brown;
+     color:#fff;
+     font-size:32px;
+     line-height:36px;letter-spacing: 1.4;;
+}
+.css-1txyin7-MuiLinearProgress-root{
+    height:15px !important;
+    border-radius:8px;
+}
