@@ -28,7 +28,7 @@ const About: React.FC = () => {
       const [value, setValue] = useState(0);
         const [direction, setDirection] = useState<"left">("left" );
       
-        const handleChange = (event: React.SyntheticEvent, newValue: number) => {
+        const handleChange = (_event: React.SyntheticEvent, newValue: number) => {
           setDirection(newValue > value ? "left" : "left");
           setValue(newValue);
         };
@@ -74,7 +74,7 @@ const About: React.FC = () => {
           <Experience />
         </TabPanel>
 
-        <TabPanel value={value} index={2} >
+        <TabPanel value={value} index={2} direction={direction}>
         <Skills />
         </TabPanel>
       </div>
