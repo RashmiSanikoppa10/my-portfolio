@@ -29,13 +29,7 @@ const App: React.FC = () => {
      <BrowserRouter>
        <Sidebar />
       <AppRoutes />
-    </BrowserRouter>
-    // <div>
-    //   <Sidebar />
-    //   <div className="content">
-    //     <Homepage />
-    //   </div>
-    // </div>
+    </BrowserRouter> 
   );
 };
 

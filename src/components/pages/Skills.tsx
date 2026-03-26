@@ -26,7 +26,7 @@ const Skills: React.FC = () => {
     <div className="skills-list">
         <Box sx={{ width: '100%' }} className="progressbarblue"> 
               <div className="progressbarSkill">
-                  <img src="../../src/assets/images/html5.svg"></img> 
+                  <img src="../public/images/html5.svg"></img> 
                   <div>
                       <h4>HTML5 </h4>
                       <LinearProgressWithLabel value={95}  />
@@ -35,7 +35,7 @@ const Skills: React.FC = () => {
        </Box>
        <Box sx={{ width: '100%' }} className="progressbarblue"> 
               <div className="progressbarSkill">
-                    <img src="../../src/assets/images/css3.svg"></img>
+                    <img src="../public/images/css3.svg"></img>
                     <div>
                       <h4>CSS3 </h4> 
                       <LinearProgressWithLabel value={90}  />
@@ -44,7 +44,7 @@ const Skills: React.FC = () => {
       </Box>
        <Box sx={{ width: '100%' }} className="progressbarblue "> 
               <div className="progressbarSkill">
-                  <img src="../../src/assets/images/javascript.svg"></img> 
+                  <img src="../public/images/javascript.svg"></img> 
                   <div>
                       <h4>Javascript </h4>
                       <LinearProgressWithLabel value={80}  />
@@ -53,7 +53,7 @@ const Skills: React.FC = () => {
       </Box>
        <Box sx={{ width: '100%' }} className="progressbarblue "> 
                  <div className="progressbarSkill">
-                      <img src="../../src/assets/images/react.svg"></img>  
+                      <img src="../public/images/react.svg"></img>  
                       <div>
                           <h4>React </h4>
                           <LinearProgressWithLabel value={75}  />
@@ -62,7 +62,7 @@ const Skills: React.FC = () => {
       </Box>
        <Box sx={{ width: '100%' }} className="progressbarblue"> 
              <div className="progressbarSkill">
-                  <img src="../../src/assets/images/typescript.svg"></img> 
+                  <img src="../public/images/typescript.svg"></img> 
                   <div>
                     <h4>Typescript</h4>
                     <LinearProgressWithLabel value={80}  />
@@ -71,7 +71,7 @@ const Skills: React.FC = () => {
       </Box>
        <Box sx={{ width: '100%' }} className="progressbarblue"> 
               <div className="progressbarSkill">
-                  <img src="../../src/assets/images/tailwindcss.svg"></img>  
+                  <img src="../public/images/tailwindcss.svg"></img>  
                   <div>
                     <h4>TailwindCSS </h4>
                     <LinearProgressWithLabel value={90}  />
@@ -80,7 +80,7 @@ const Skills: React.FC = () => {
       </Box>  
       <Box sx={{ width: '100%' }} className="progressbarblue"> 
               <div className="progressbarSkill">
-                  <img src="../../src/assets/images/redux.svg"></img>  
+                  <img src="../public/images/redux.svg"></img>  
                   <div>
                     <h4>Redux </h4>
                     <LinearProgressWithLabel value={70}  />

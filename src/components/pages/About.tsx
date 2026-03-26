@@ -38,9 +38,9 @@ const About: React.FC = () => {
     <div className="container about poppins-light"> 
        
        <div className="left-panel">
-        <div className="mailid poppins-regular-italic"> <img src="../../src/assets/images/gmail.svg"></img> <a href="mailto:rashmisanikoppa10@gmail.com">rashmisanikoppa10@gmail.com</a></div>
+        <div className="mailid poppins-regular-italic"> <img src="../public/images/gmail.svg"></img> <a href="mailto:rashmisanikoppa10@gmail.com">rashmisanikoppa10@gmail.com</a></div>
           <div className="profile-pic-container">
-              <img src="../src/assets/images/profile1.jpg" alt="Rashmi Sanikoppa"  />
+              <img src="../public/images/profile1.jpg" alt="Rashmi Sanikoppa"  />
           </div>
           <h2 className="intro"> I'm  Rashmi Sanikoppa</h2>
           <h3> Web Developer</h3> 

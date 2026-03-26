@@ -23,12 +23,12 @@ const Sidebar: React.FC = () => {
       <ul className="social-links">
         <li>
           <a href="https://www.linkedin.com/in/rashmi-sanikoppa-a83918304/" target="_blank" rel="noopener noreferrer">
-            <img src="../src/assets/images/linkedin.png" alt="LinkedIn" className="social-icon" />
+            <img src="../public/images/linkedin.png" alt="LinkedIn" className="social-icon" />
           </a>
         </li>
         <li>
           <a href="https://github.com/rashmisanikoppa" target="_blank" rel="noopener noreferrer">
-            <img src="../src/assets/images/github.png" alt="GitHub" className="social-icon" />
+            <img src="../public/images/github.png" alt="GitHub" className="social-icon" />
           </a>
         </li>
       </ul>
