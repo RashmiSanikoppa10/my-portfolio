@@ -7,7 +7,7 @@ const Homepage: React.FC = () => {
     <>
     <div className="container homepage">
        <div className="homeleft">
-       <div className="mailid poppins-light-italic"> <img src="../public/images/gmail.svg"></img> <a href="mailto:rashmisanikoppa10@gmail.com">rashmisanikoppa10@gmail.com</a></div>
+       <div className="mailid poppins-light-italic"> <img src="/images/gmail.svg"></img> <a href="mailto:rashmisanikoppa10@gmail.com">rashmisanikoppa10@gmail.com</a></div>
       <h2 className="intro">Hi there, I'm <br /> Rashmi Sanikoppa</h2>
       <h3> Web Developer</h3>
       <h4>Crafting Seamless Web Experiences</h4>
@@ -15,7 +15,7 @@ const Homepage: React.FC = () => {
        
     </div>
        <div className="homeright">
-     <img src="../public/images/profile1.jpg" alt="Rashmi Sanikoppa" className="profile-pic" /> 
+     <img src="/images/profile1.jpg" alt="Rashmi Sanikoppa" className="profile-pic" /> 
     </div>
     </div>
     </> 
